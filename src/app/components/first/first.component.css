@@ -1,0 +1,32 @@
+.mainpage{
+    background-color: #f2f2f2;
+}
+.mainpage h1{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #0e2d53;  
+}
+.mainpage p{
+    font-weight: bold;
+    text-align: center;
+    color: #0e2d53; 
+    max-width: 770px;
+    margin-top: 20px; 
+}
+.imgright{
+    text-align: right;
+}
+.imgleft{
+    text-align: left;
+}
+@media screen and (max-width:1062px){
+.imgright{
+    width:0px;
+    height:0px;
+}
+.imgleft{
+    width:0px;
+    height:0px;
+}
+}
